@@ -1,0 +1,133 @@
+<Extensions>
+  <Version>1.8</Version>
+  <Panel>
+    <Order>2</Order>
+    <PanelId>presentation</PanelId>
+    <Origin>local</Origin>
+    <Type>Statusbar</Type>
+    <Icon>Laptop</Icon>
+    <Color>#FFB400</Color>
+    <Name>Video Mixer</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>ImmersiveVideo for S1</Name>
+      <Row>
+        <Name>Source</Name>
+        <Widget>
+          <WidgetId>source_immersiveVideo</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=2</Options>
+          <ValueSpace>
+            <Value>
+              <Key>UsbC</Key>
+              <Name>USB-C</Name>
+            </Value>
+            <Value>
+              <Key>Hdmi</Key>
+              <Name>HDMI</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Position</Name>
+        <Widget>
+          <WidgetId>position_immersiveVideo</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=3</Options>
+          <ValueSpace>
+            <Value>
+              <Key>upperLeft</Key>
+              <Name>Upper Left</Name>
+            </Value>
+            <Value>
+              <Key>upperCenter</Key>
+              <Name>Upper Center</Name>
+            </Value>
+            <Value>
+              <Key>upperRight</Key>
+              <Name>Upper Right</Name>
+            </Value>
+            <Value>
+              <Key>lowerLeft</Key>
+              <Name>Lower Left</Name>
+            </Value>
+            <Value>
+              <Key>lowerCenter</Key>
+              <Name>Lower Center</Name>
+            </Value>
+            <Value>
+              <Key>lowerRight</Key>
+              <Name>Lower Right</Name>
+            </Value>
+            <Value>
+              <Key>activate</Key>
+              <Name>Activate</Name>
+            </Value>
+            <Value>
+              <Key>reset</Key>
+              <Name>Reset</Name>
+            </Value>
+            <Value>
+              <Key>deactivate</Key>
+              <Name>Deactivate</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Size</Name>
+        <Widget>
+          <WidgetId>sizeLable_immersiveVideo</WidgetId>
+          <Name>???</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>sizeSlider_immersiveVideo</WidgetId>
+          <Type>Slider</Type>
+          <Options>size=3</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Opacity</Name>
+        <Widget>
+          <WidgetId>opacityLable_immersiveVideo</WidgetId>
+          <Name>???</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>opacitySlider_immersiveVideo</WidgetId>
+          <Type>Slider</Type>
+          <Options>size=3</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Position Adjustment</Name>
+        <Widget>
+          <WidgetId>posAdjustmentPad_immersiveVideo</WidgetId>
+          <Name/>
+          <Type>DirectionalPad</Type>
+          <Options>size=4</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Adjustment Range</Name>
+        <Widget>
+          <WidgetId>posAdjustmentLable_immersiveVideo</WidgetId>
+          <Name>???</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>posAdjustmentSlider_immersiveVideo</WidgetId>
+          <Type>Slider</Type>
+          <Options>size=3</Options>
+        </Widget>
+      </Row>
+      <PageId>immersiveShare</PageId>
+      <Options>hideRowNames=0</Options>
+    </Page>
+  </Panel>
+</Extensions>
