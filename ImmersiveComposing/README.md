@@ -27,10 +27,10 @@ With the immersive video part you will be even much more flexible.
 3. To get the **immersive capabilites** import the macro file **[ImmersiveVideo.js](https://github.com/ChrisW0lf/webex-room-customization/blob/main/ImmersiveVideo/ImmersiveVideo.js)** to the **Macro Editor**, too.
 
 ## Disclaimer
-This example is only a sample and is **NOT guaranteed to be bug free and production quality**.
+Those examples are only samples and are **NOT guaranteed to be bug free and production quality**.
 
 The sample macros are meant to:
 - Illustrate how to use the CE Macros.
-- Serve as an example of the step by step process of building a macro using JavaScript and integration with the Codec XAPI
+- Serve as an example of the step by step process of building a macro using JavaScript and integration with the Codec XAPI.
 
 The sample macros are made available to Cisco partners and customers as a convenience to help minimize the cost of Cisco Finesse customizations. Cisco does not permit the use of this library in customer deployments that do not include Cisco Video Endpoint Hardware.
