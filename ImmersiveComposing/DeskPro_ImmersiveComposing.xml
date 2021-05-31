@@ -20,15 +20,15 @@
           <ValueSpace>
             <Value>
               <Key>1</Key>
-              <Name>S1</Name>
+              <Name>CAM (S1)</Name>
             </Value>
             <Value>
               <Key>2</Key>
-              <Name>S2</Name>
+              <Name>USBC (S2)</Name>
             </Value>
             <Value>
               <Key>3</Key>
-              <Name>S3</Name>
+              <Name>HDMI (S3)</Name>
             </Value>
           </ValueSpace>
         </Widget>
@@ -182,6 +182,24 @@
           <Name>Stop Sharing</Name>
           <Type>Button</Type>
           <Options>size=4</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Single source</Name>
+        <Widget>
+          <WidgetId>presentation-s_1_compositor</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4</Options>
+          <ValueSpace>
+            <Value>
+              <Key>2</Key>
+              <Name>USBC (S2)</Name>
+            </Value>
+            <Value>
+              <Key>3</Key>
+              <Name>HDMI (S3)</Name>
+            </Value>
+          </ValueSpace>
         </Widget>
       </Row>
       <Row>
