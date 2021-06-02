@@ -7,13 +7,13 @@ With the immersive video part you will be even much more flexible.
 
 ---
 ### Choose the video sources and layout you want to show: 
-![Video Page](https://github.com/ChrisW0lf/webex-room-customization/blob/main/ImmersiveComposing/images/videoComposing.png)
+![Video Page](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/images/videoComposing.png)
 
 ### Choose the presentation sources and layout you want to share: 
-![Presentation Page](https://github.com/ChrisW0lf/webex-room-customization/blob/main/ImmersiveComposing/images/presentationComposing.png)
+![Presentation Page](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/images/presentationComposing.png)
 
 ### Enrich the experience with immersive settings: 
-![Immersive settings](https://github.com/ChrisW0lf/webex-room-customization/blob/main/ImmersiveComposing/images/immersiveVideo.png)
+![Immersive settings](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/images/immersiveVideo.png)
 ---
 
 ## Requirements
