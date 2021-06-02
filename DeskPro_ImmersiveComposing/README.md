@@ -22,9 +22,9 @@ With the immersive video part you will be even much more flexible.
 4. Admin user access to endpoint
 
 ## Setup
-1. Import the UI file **[DeskPro_ImmersiveComposing.xml](https://github.com/ChrisW0lf/webex-room-customization/blob/main/ImmersiveComposing/DeskPro_ImmersiveComposing.xml)** to the **UI Extensions Editor** of your DeskPro and **Export configuration to video system**.
-2. Import the macro file **[DeskPro_ImmersiveComposing.js](https://github.com/ChrisW0lf/webex-room-customization/blob/main/ImmersiveComposing/DeskPro_ImmersiveComposing.js)** to the **Macro Editor** of your DeskPro and **Save to System**.
-3. To get the **immersive capabilites** import the macro file **[ImmersiveVideo.js](https://github.com/ChrisW0lf/webex-room-customization/blob/main/ImmersiveVideo/ImmersiveVideo.js)** to the **Macro Editor**, too.
+1. Import the UI file **[DeskPro_ImmersiveComposing.xml](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/DeskPro_ImmersiveComposing.xml)** to the **UI Extensions Editor** of your DeskPro and **Export configuration to video system**.
+2. Import the macro file **[DeskPro_ImmersiveComposing.js](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/DeskPro_ImmersiveComposing.js)** to the **Macro Editor** of your DeskPro and **Save to System**.
+3. To get the **immersive capabilites** import the macro file **[DeskPro_ImmersiveVideo.js](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveVideo/DeskPro_ImmersiveVideo.js)** to the **Macro Editor**, too.
 
 ## Disclaimer
 Those examples are only samples and are **NOT guaranteed to be bug free and production quality**.
