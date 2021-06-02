@@ -1,5 +1,5 @@
 # ImmersiveComposing
-### Turning your Cisco Webex DeskPro into a home video studio.
+### Turn your Cisco Webex DeskPro into a home video studio.
 
 With this setup you will be able to flexibly decide what you want to show or share.
 Choose between different sources and layouts to get the desired output.
