@@ -26,6 +26,10 @@ With the immersive video part you will be even much more flexible.
 2. Import the macro file **[DeskPro_ImmersiveComposing.js](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/DeskPro_ImmersiveComposing.js)** to the **Macro Editor** of your DeskPro and **Save to System**.
 3. To get the **immersive capabilites** import the macro file **[DeskPro_ImmersiveVideo.js](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveVideo/DeskPro_ImmersiveVideo.js)** to the **Macro Editor**, too.
 
+## Support&Feedback
+Please join this **[Webex Space](https://eurl.io/#Fvo7JcAkQ)** if you need support, have questions or to start some discussions around the macro or functionality:
+![QRCodeToWebexSpace](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/images/webexSpaceQR.png)
+
 ## Disclaimer
 Those examples are only samples and are **NOT guaranteed to be bug free and production quality**.
 
