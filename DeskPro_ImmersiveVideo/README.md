@@ -18,6 +18,10 @@ You can also easily switch your sources between USBC or HDMI and move yourself a
 1. Import the UI file **[DeskPro_ImmersiveVideo.xml](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveVideo/DeskPro_ImmersiveVideo.xml)** to the **UI Extensions Editor** of your DeskPro and **Export configuration to video system**.
 2. Import the macro file **[DeskPro_ImmersiveVideo.js](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveVideo/DeskPro_ImmersiveVideo.js)** to the **Macro Editor** of your DeskPro and **Save to System**.
 
+## Support&Feedback
+Please join this **[Webex Space](https://eurl.io/#Fvo7JcAkQ)** if you need support, have questions or to start some discussions around the macro or functionality:
+![QRCodeToWebexSpace](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/images/webexSpaceQR.png)
+
 ## Disclaimer
 Those examples are only samples and are **NOT guaranteed to be bug free and production quality**.
 
