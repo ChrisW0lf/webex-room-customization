@@ -26,6 +26,10 @@ Read the document [Working with Macros and In-room Controls](https://www.cisco.c
 ##### XAPI
 Documentation for the XAPI can be found in the [Command References overview](https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-quick-set-series/products-command-reference-list.html).
 
+## Support&Feedback
+Please join this **[Webex Space](https://eurl.io/#Fvo7JcAkQ)** if you need support, have questions or to start some discussions around the macro or functionality:
+![QRCodeToWebexSpace](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/images/webexSpaceQR.png)
+
 ## Disclaimer
 Those examples are only samples and are **NOT guaranteed to be bug free and production quality**.
 
