@@ -28,6 +28,7 @@ Documentation for the XAPI can be found in the [Command References overview](htt
 
 ## Support&Feedback
 Please join this **[Webex Space](https://eurl.io/#Fvo7JcAkQ)** if you need support, have questions or to start some discussions around the macro or functionality:
+
 ![QRCodeToWebexSpace](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/images/webexSpaceQR.png)
 
 ## Disclaimer
