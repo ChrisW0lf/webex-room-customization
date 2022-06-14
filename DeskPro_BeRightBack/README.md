@@ -1,7 +1,7 @@
 # Be Right Back
 ### Show meeting participants automatically when you're away from your Cisco Webex DeskPro.
 
-Did you always need to step away from your DeskPro while in a call and forget to mute yourself? 
+Did you always had to step away from your DeskPro while in a call and forget to mute yourself? 
 With **BeRightBack** People Presence will detect if you're away, change your background to an Image you have uploaded to the **User1** slot and mute yourself.
 After coming back your background will change to your last setting and your microphone unmuted as well.
 
