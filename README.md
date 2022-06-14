@@ -4,7 +4,7 @@
 ## Welcome!
 Hey there, thanks for finding my repository!
 
-Here you can find a selection of my macros for CE Room Devices. Macros are a great feature intruduced in CE9.2 that allows you to customise your Room Device. They are especially powerful in combination with the In-Room Control Extensions of any Cisco Webex Touch Device.
+Here you can find a selection of my macros for CE Room Devices. Macros are a great feature introduced in CE9.2 that allows you to customise your Room Device. They are especially powerful in combination with the In-Room Control Extensions of any Cisco Webex Touch Device.
 
 #### Macros available:
 
