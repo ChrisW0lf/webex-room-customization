@@ -10,6 +10,7 @@ Here you can find a selection of my macros for CE Room Devices. Macros are a gre
 
 | Macro        | Description           |
 | :------------------------ |:-------------|
+| [BeRightBack](https://github.com/ChrisW0lf/webex-room-customization/tree/main/DeskPro_BeRightBack) | Show meeting participants automatically when you're away from your Cisco Webex DeskPro
 | [ImmersiveComposing](https://github.com/ChrisW0lf/webex-room-customization/tree/main/DeskPro_ImmersiveComposing) | Turn your Cisco Webex DeskPro into a home video studio |
 | [ImmersiveVideo](https://github.com/ChrisW0lf/webex-room-customization/tree/main/DeskPro_ImmersiveVideo) | Enable flexibility in your immersive video experience on your Cisco Webex DeskPro |
 
