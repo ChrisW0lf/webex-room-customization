@@ -2,12 +2,12 @@
   <Version>1.8</Version>
   <Panel>
     <Order>2</Order>
-    <PanelId>presentation</PanelId>
+    <PanelId>immersiveComposing</PanelId>
     <Origin>local</Origin>
     <Type>Statusbar</Type>
     <Icon>Laptop</Icon>
     <Color>#FFB400</Color>
-    <Name>Video Mixer</Name>
+    <Name>Immersive Composing</Name>
     <ActivityType>Custom</ActivityType>
     <Page>
       <Name>ImmersiveVideo for S1</Name>
@@ -25,6 +25,28 @@
             <Value>
               <Key>Hdmi</Key>
               <Name>HDMI</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Immersive Mode</Name>
+        <Widget>
+          <WidgetId>immersiveMode_immersiveVideo</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=3</Options>
+          <ValueSpace>
+            <Value>
+              <Key>Blend</Key>
+              <Name>Blend</Name>
+            </Value>
+            <Value>
+              <Key>CameraPip</Key>
+              <Name>CameraPip</Name>
+            </Value>
+            <Value>
+              <Key>VideoPip</Key>
+              <Name>VideoPip</Name>
             </Value>
           </ValueSpace>
         </Widget>
@@ -126,7 +148,7 @@
           <Options>size=3</Options>
         </Widget>
       </Row>
-      <PageId>immersiveShare</PageId>
+      <PageId>immersiveVideo</PageId>
       <Options>hideRowNames=0</Options>
     </Page>
   </Panel>

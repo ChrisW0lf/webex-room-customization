@@ -27,6 +27,7 @@ import xapi from 'xapi';
 // Standard position for immersive share, bottom right in half size and full opacity
 let immersiveVideoParams = {X: 8000, Y: 7500, Scale: 50, Opacity: 100};
 let source = 'UsbC';
+let immersiveMode = 'Blend';
 let backgroundImage;
 let backgroundMode;
 let isImmersiveVideo = false;
@@ -36,10 +37,10 @@ const maxMovement = 2500;
 
 
 // Updates Source UI
-function updateSourceUI(source) {
+function updateSourceModeUI(widget, lable) {
   xapi.command('UserInterface Extensions Widget SetValue', {
-    WidgetId: 'source_immersiveVideo',
-    Value: source
+    WidgetId: widget+'_immersiveVideo',
+    Value: lable
   });
 };
 
@@ -77,7 +78,7 @@ function unsetGUIValue(guiId) {
 // Set immersive Video
 function immersiveVideo(x = immersiveVideoParams.X, y = immersiveVideoParams.Y, scale = immersiveVideoParams.Scale, opacity = immersiveVideoParams.Opacity) {
   isImmersiveVideo = true;
-  immersiveVideoParams = { X: x, Y: y, Scale: scale, Opacity: opacity };
+  immersiveVideoParams = {X: x, Y: y, Scale: scale, Opacity: opacity, Composition: immersiveMode};
   xapi.command('Cameras Background Set', { Mode: source });
   xapi.command('Cameras Background ForegroundParameters Set', immersiveVideoParams);
 };
@@ -90,7 +91,8 @@ function disableImmersiveVideo() {
 };
 
 xapi.on('ready', () => {
-  updateSourceUI(source);
+  updateSourceModeUI('source', source);
+  updateSourceModeUI('immersiveMode', immersiveMode);
   updateSliderUI('size', immersiveVideoParams.Scale);
   updateSliderUI('opacity', immersiveVideoParams.Opacity);
   updateSliderUI('posAdjustment', positionMovement);
@@ -99,6 +101,8 @@ xapi.on('ready', () => {
 
 // Event if Background Image or Mode has been changed
 xapi.status.on('Cameras Background', (event) => {
+  //!!!!  code to be checked? !!!
+  console.log(event)
   if (!isImmersiveVideo) {
     if (event['Image']) {backgroundImage = event['Image']; }
     else {backgroundMode = event['Mode']; };
@@ -109,8 +113,11 @@ xapi.event.on('UserInterface Extensions Widget Action', (event) => {
   if (event.WidgetId.includes('_immersiveVideo')) {
     // Event to change source for immersive Video
     if (event.WidgetId === 'source_immersiveVideo') {
-      source = event.Value
-      if (isImmersiveVideo) {immersiveVideo()};
+      source = event.Value;
+    }
+    // Event to change mode for immersive Video
+    else if(event.WidgetId === 'immersiveMode_immersiveVideo') {
+      immersiveMode = event.Value;
     }
     // Event on Sliders to update UI and ImmersiveVideo
     else if (event.WidgetId.includes('Slider_immersiveVideo') && event.Type === 'changed') {
@@ -122,12 +129,10 @@ xapi.event.on('UserInterface Extensions Widget Action', (event) => {
           lable = Math.round(event.Value * maxSizeOpacity / 255);
           if (lable == 0) {lable = 1};
           immersiveVideoParams.Scale = lable;
-          if (isImmersiveVideo) {immersiveVideo()};
           break;
         case 'opacitySlider_immersiveVideo':
           lable = Math.round(event.Value * maxSizeOpacity / 255);
           immersiveVideoParams.Opacity = lable;
-          if (isImmersiveVideo) {immersiveVideo()};
           break;
         case 'posAdjustmentSlider_immersiveVideo':
           lable = Math.round(event.Value * maxMovement / 255 / 100) * 100;
@@ -194,8 +199,8 @@ xapi.event.on('UserInterface Extensions Widget Action', (event) => {
         default:
           //do nothing
       };
-      if(isImmersiveVideo) {immersiveVideo()};
     };
   };
+  if(isImmersiveVideo) {immersiveVideo()};
 });
 
