@@ -6,9 +6,6 @@ With **BeRightBack** People Presence will detect if you're away, change your bac
 After coming back your background will change to your last setting and your microphone unmuted as well.
 
 ---
-### Enrich the experience with immersive settings: 
-![Immersive settings](https://github.com/ChrisW0lf/webex-room-customization/blob/main/DeskPro_ImmersiveComposing/images/immersiveVideo.png)
----
 
 ## Requirements
 1. Cisco Webex DeskPro
