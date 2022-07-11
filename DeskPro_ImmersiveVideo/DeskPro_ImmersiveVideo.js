@@ -101,8 +101,6 @@ xapi.on('ready', () => {
 
 // Event if Background Image or Mode has been changed
 xapi.status.on('Cameras Background', (event) => {
-  //!!!!  code to be checked? !!!
-  console.log(event)
   if (!isImmersiveVideo) {
     if (event['Image']) {backgroundImage = event['Image']; }
     else {backgroundMode = event['Mode']; };
